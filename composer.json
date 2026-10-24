@@ -1,0 +1,24 @@
+{
+	"name": "christianzimpel/thumbnail-link-for-woo",
+	"description": "Links WooCommerce product images and titles in the shop to an external URL, e.g. an affiliate link.",
+	"type": "wordpress-plugin",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "Christian Zimpel",
+			"homepage": "https://christianzimpel.de"
+		}
+	],
+	"require-dev": {
+		"wp-coding-standards/wpcs": "^3.1"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	},
+	"scripts": {
+		"lint": "phpcs",
+		"format": "phpcbf"
+	}
+}
